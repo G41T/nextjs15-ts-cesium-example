@@ -7,6 +7,4 @@ I don't have an example running. Download the files, use the standard `npm insta
 
 To use Cesium Ion you will need to make a "/env.local" file holding your Cesium Ion API key. Ex. `NEXT_PUBLIC_CESIUM_TOKEN='YOUR KEY'`. 
 
-THIS CODE WILL NOT RUN PROPERLY OR DISPLAY A MAP UNTIL YOU INPUT A CESIUM ION API KEY.
-
 Read the quirks in hyundotio's example. Ensuring `info: {minimized: true}` is applied to all file copying is absolutely essential to get the terrain to show. If the Cesium HUD shows, but Earth does not, check how you are copying files over to the public folder. 

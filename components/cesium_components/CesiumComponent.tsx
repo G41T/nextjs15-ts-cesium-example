@@ -95,7 +95,7 @@ export const CesiumComponent: React.FunctionComponent<{
 
             //OPTIONAL: Assign access Token here
             //Guide: https://cesium.com/learn/ion/cesium-ion-access-tokens/
-            CesiumJs.Ion.defaultAccessToken = `${process.env.NEXT_PUBLIC_CESIUM_TOKEN}`;
+            //CesiumJs.Ion.defaultAccessToken = `${process.env.NEXT_PUBLIC_CESIUM_TOKEN}`;
 
             //NOTE: Always utilize CesiumJs; do not import them from "cesium"
             cesiumViewer.current = new CesiumJs.Viewer(cesiumContainerRef.current, {
